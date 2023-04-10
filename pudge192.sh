@@ -1,4 +1,4 @@
-pt update -y
+apt update -y
 apt-mark hold linux-image-generic linux-headers-generic openssh-server
 apt upgrade -y
 apt -y install unzip vnstat htop screen mc
